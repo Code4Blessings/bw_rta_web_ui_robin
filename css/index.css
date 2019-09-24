@@ -635,3 +635,45 @@ button a:hover {
     margin-left: 20%;
   }
 }
+.a-top-container {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.7) 0%, rgba(18, 3, 5, 0.5) 72%, rgba(85, 65, 65, 0.8) 98%), url('../images/parallax-pic.jpg'), no-repeat, center;
+  height: 800px;
+  margin-top: 0;
+  background-size: cover;
+  padding: 100px;
+  padding-left: 15%;
+  width: 100%;
+}
+.a-top-container p {
+  color: #89c9e4;
+  font-size: 60px;
+  font-weight: bold;
+}
+.a-top-container h1 {
+  color: #000;
+  font-size: 75px;
+  font-weight: bold;
+}
+.about-container {
+  margin: 0, auto;
+  color: #fff;
+}
+.teams {
+  color: #000;
+  font-size: 100px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 30px;
+  border-bottom: 3px solid black;
+}
+.parallax {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.7) 0%, rgba(18, 3, 5, 0.5) 72%, rgba(85, 65, 65, 0.8) 98%), url('../images/about-cover.jpg'), no-repeat, center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  width: 100%;
+}
+.parallax h1 {
+  color: #89c9e4;
+  font-size: 75px;
+}
