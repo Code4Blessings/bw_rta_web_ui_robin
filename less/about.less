@@ -64,3 +64,40 @@
         font-size: 75px;
     }
 }
+
+#team-section {
+    .sectionStyle(100%, 400px);
+
+    h2 {
+        .h2Style();
+        padding-left: 350px;
+    }
+
+    .team-container {
+        .displayFlex();
+        flex-wrap: wrap;
+
+        .team-members {
+            position: relative;
+            width: 350px;
+            margin: 50px;
+            background: @theme-color;
+            padding: 20px;
+            
+            text-align: center;
+            box-shadow: 0 10px 6px -6px black;
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            margin: 20px;
+            border-radius: 50%;
+
+        }
+    }
+}

@@ -706,3 +706,38 @@ button a:hover {
   color: #89c9e4;
   font-size: 75px;
 }
+#team-section {
+  width: 100%;
+  height: 400px;
+}
+#team-section h2 {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 30px;
+  border-bottom: 3px solid black;
+  padding-left: 350px;
+}
+#team-section .team-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#team-section .team-container .team-members {
+  position: relative;
+  width: 350px;
+  margin: 50px;
+  background: #89c9e4;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 10px 6px -6px black;
+}
+#team-section .team-container p {
+  font-size: 17px;
+}
+#team-section .team-container img {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 50%;
+}
