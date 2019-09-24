@@ -1,24 +1,47 @@
 .a-top-container {
     background: @linearGradient, url('../images/parallax-pic.jpg'), no-repeat, center;
-    .sectionStyle(100%, 800px);
+    .sectionStyle(100%, 700px);
     margin-top: 0;
     background-size: cover;
+    background-attachment: fixed;
     padding: 100px;
     padding-left: 15%;
-    width: 100%;
+    text-align: center;
 
     p {
         color: @theme-color;
-        font-size: 60px;
+        font-size: 45px;
         font-weight: bold;
+        margin-top: 25px;
     }
 
     h1 {
-        color: @font-color;
-        font-size: 75px;
+        color: @theme-color;
+        font-size: 7rem;
         font-weight: bold;
+        border: 5px solid @theme-color;
+        border-radius: 40px;
+        padding: 10px 60px;
+        width: 50%;
+        margin-left: 200px;
     }
 }
+
+.a-btn {
+    .signUp(block, @theme-color, 200px, 45px, 2rem, 20px, center);
+    box-shadow: 0 10px 6px -6px black;
+    margin: 10px 400px;
+
+    a {
+        .aStyler();
+
+        &:hover {
+            background: black;
+            color: @theme-color;
+        }
+    }
+}
+
 
 .about-container {
     margin: 0, auto;;
