@@ -713,6 +713,14 @@ header a:hover {
   padding-left: 15%;
   text-align: center;
 }
+@media (max-width: 1024px) {
+  .a-top-container {
+    height: auto;
+    text-align: center;
+    padding: 40px 30px;
+    height: 400px;
+  }
+}
 .a-top-container p {
   color: #89c9e4;
   font-size: 45px;
@@ -834,4 +842,252 @@ header a:hover {
   color: #89c9e4;
   margin: 20px 250px;
   text-align: center;
+}
+@media (max-width: 1024px) {
+  .a-top-container {
+    text-align: center;
+    padding: 10%;
+    height: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .a-top-container p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .a-top-container h1 {
+    font-size: 2.5rem;
+    margin: 0 40px;
+    padding: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .a-top-container .a-btn {
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+}
+#feature-section {
+  width: 100%;
+  height: 700px;
+}
+@media (max-width: 1024px) {
+  #feature-section {
+    height: auto;
+  }
+}
+#feature-section h2 {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 30px;
+  border-bottom: 3px solid black;
+  padding-left: 425px;
+}
+@media (max-width: 1024px) {
+  #feature-section h2 {
+    font-size: 50px;
+    padding-left: 100px;
+  }
+}
+#feature-section .feature-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 1024px) {
+  #feature-section .feature-container {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1024px) {
+  #feature-section p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  #step-section {
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+  #step-section .step-container {
+    text-align: center;
+  }
+}
+@media (max-width: 1024px) {
+  #step-section .steps {
+    padding: 20px;
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+  #step-section h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  #step-section h4 {
+    font-size: 25px;
+  }
+}
+#step-section p {
+  font-size: 25px;
+}
+@media (max-width: 1024px) {
+  #step-section p {
+    font-size: 18px;
+  }
+}
+#testimonial-section {
+  width: 100%;
+  height: 800px;
+}
+@media (max-width: 1024px) {
+  #testimonial-section {
+    height: auto;
+  }
+}
+#testimonial-section h2 {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 30px;
+  border-bottom: 3px solid black;
+  padding-left: 350px;
+}
+@media (max-width: 1024px) {
+  #testimonial-section h2 {
+    font-size: 50px;
+    padding-left: 40px;
+  }
+}
+#testimonial-section .testimonial-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 1024px) {
+  #testimonial-section .testimonial-container {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1024px) {
+  #get-started-section {
+    height: auto;
+  }
+}
+#get-started-section h2 {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 30px;
+  border-bottom: 3px solid black;
+}
+@media (max-width: 1024px) {
+  #get-started-section h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  #get-started-section .get-started-container {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1024px) {
+  #get-started-section .start button {
+    margin-left: 20%;
+  }
+}
+@media (max-width: 1024px) {
+  #feature-section {
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+  #feature-section h2 {
+    font-size: 50px;
+    padding-left: 100px;
+  }
+}
+@media (max-width: 1024px) {
+  #feature-section .feature-container {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1024px) {
+  #feature-section p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  #step-section {
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+  #step-section .step-container {
+    text-align: center;
+  }
+}
+@media (max-width: 1024px) {
+  #step-section .steps {
+    padding: 20px;
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+  #step-section h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  #step-section h4 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1024px) {
+  #step-section p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1024px) {
+  #testimonial-section {
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+  #testimonial-section h2 {
+    font-size: 50px;
+    padding-left: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  #testimonial-section .testimonial-container {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1024px) {
+  #get-started-section {
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+  #get-started-section h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  #get-started-section .get-started-container {
+    flex-wrap: wrap;
+  }
+}
+#get-started-section .start p {
+  font-size: 25px;
+  padding: 20px;
+}
+@media (max-width: 1024px) {
+  #get-started-section .start button {
+    margin-left: 20%;
+  }
 }
