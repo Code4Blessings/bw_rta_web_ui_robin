@@ -4,10 +4,18 @@
     height: 400px;
     position: relative;
 
+    @media @mobile {
+        height: auto;
+    }
+
     .footer-content {
         height: 350px;
         display: flex;
-        
+
+        @media @mobile {
+            flex-wrap: wrap;
+            height: 800px;
+        }
 
         .footer-section {
             flex: 1;
@@ -67,6 +75,11 @@
         bottom: 0px;
         left: 0px;
         padding-top: 20px;
+
+        @media @mobile {
+            .sectionStyle(90%, 100px);
+            text-align: center;
+        }
 
         p {
             font-size: 15px;

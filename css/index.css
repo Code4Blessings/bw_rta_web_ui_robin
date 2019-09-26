@@ -188,9 +188,20 @@ header a:hover {
   height: 400px;
   position: relative;
 }
+@media (max-width: 1024px) {
+  .footer {
+    height: auto;
+  }
+}
 .footer .footer-content {
   height: 350px;
   display: flex;
+}
+@media (max-width: 1024px) {
+  .footer .footer-content {
+    flex-wrap: wrap;
+    height: 800px;
+  }
 }
 .footer .footer-content .footer-section {
   flex: 1;
@@ -241,6 +252,13 @@ header a:hover {
   bottom: 0px;
   left: 0px;
   padding-top: 20px;
+}
+@media (max-width: 1024px) {
+  .footer .footer-bottom {
+    width: 90%;
+    height: 100px;
+    text-align: center;
+  }
 }
 .footer .footer-bottom p {
   font-size: 15px;
